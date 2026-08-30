@@ -1,0 +1,95 @@
+* {
+box-sizing:border-box;
+
+}
+
+@font-face {
+font-family:vazirmatn;
+src: url(/assets/fonts/Vazirmatn-Regular.ttf);
+font-weight: normal;
+font-style: normal;
+
+}
+
+html,
+body,
+button,
+input,
+span,
+div {
+font-family:vazirmatn !important;
+
+}
+
+body{
+background-color:#F8FAFC;
+border:4px solid #D9E7DC;
+border-radius:16px;
+height:800px;
+margin:5px 4px;
+color: #14213D;
+
+}
+
+.header {
+background-color: #ffffff;
+border-bottom:1px solid #E5E7EB;
+border-radius:16px  16px 0 0;
+
+}
+
+.header__container {
+display: flex;
+align-items: center;
+
+gap:15px;
+width:100%;
+margin:0 auto;
+
+}
+
+.header__logo-image {
+width: 70px;
+display: flex;
+align-items: center;
+margin-right:30px;
+
+}
+
+.header__nav{
+display: flex;
+gap:10px;
+
+}
+
+.header__actions{
+display:flex;
+align-items: center;
+margin-right:auto;
+gap:30px;
+margin-left:30px;
+
+}
+
+.header__button{
+background:none;
+border:none;
+cursor: pointer;
+
+}
+
+.header__login{
+text-decoration:none;
+color:#14213D;
+
+}
+
+.header__card {
+border:none;
+background:none;
+background-color:#ECFCF4;
+border-radius:5px ;
+color:#599EA8;
+padding:7px 9px;
+
+}
