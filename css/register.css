@@ -101,6 +101,11 @@ font-size:16px;
 
 }
 
+.form-group input::placeholder{
+    direction: ltr;
+    text-align: left;
+}
+
 .footer{
 position: fixed;
 background-color:#15203D ;
@@ -416,4 +421,31 @@ font-size: 10px;
 
 }
 
+/* .dark {
+  --body-bg: #0E162A;
+  --card-bg: #1E293B;
+  --primary-color: #2DD4BF;
+  --text-color: #E2E8F0;
 
+} */
+
+/* :root {
+  --body-bg: #F8FAFC;
+  --card-bg: #FFFFFF;
+  --primary-color: #0E776E;
+  --text-color: #ffffff;
+} */
+
+/* body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+.login,
+.header {
+  background-color: var(--card-bg);
+}
+
+button.submit {
+  background-color: var(--primary-color);
+} */
