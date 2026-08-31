@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الیف سان</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="index.html">
+            <img
+              src="assets/icons/IMG_1147.PNG"
+              alt="لوگوی الیف سان"
+              class="header__logo-image"
+            />
+          </a>
+        </div>
+
+        <nav class="header__nav">
+          <button class="header__button">خانه</button>
+          <button class="header__button">فروشگاه</button>
+          <button class="header__button">دسته بندی ها</button>
+          <button class="header__button">درباره ما</button>
+        </nav>
+
+        <div class="header__actions">
+          <button class="header__card">سبد خرید˙۲</button>
+          <a href="register.html" class="header__login">ورود</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="login">
+        <form class="form" action="www.example.com" method="post">
+          <h2 class="login__title">ساخت حساب کاربری</h2>
+          <p>برای خرید سریع تر حساب الیف سان را بسازید.</p>
+          <div class="login__form">
+            <div class="form-group">
+              <label for="email">ایمیل</label>
+
+              <input
+                required
+                type="email"
+                id="email"
+                name="email"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">شماره همراه</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="09[0-9]{9}"
+                maxlength="11"
+                placeholder=""
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password">رمز عبور </label>
+
+              <input
+                pattern="[A-za-Z0-9@%$&]+"
+                minlength="8"
+                maxlength="64"
+                required
+                type="password"
+                id="password"
+                name="password"
+                placeholder=""
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="confirm-password">تکرار رمز عبور</label>
+
+              <input
+                placeholder="رمز عبور را دوباره وارد کنید"
+                pattern="[A-za-Z0-9@%$&]+"
+                minlength="8"
+                maxlength="32"
+                required
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+              />
+            </div>
+
+            <div class="form-buttons">
+              <button type="reset" class="reset">پاک کردن</button>
+              <button type="submit" class="submit">ثبت نام</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__brand"><h4>الیف سان; خرید ساده و مطمئن</h4></div>
+      <div class="footer__links">
+        <button class="footer__link">پشتیبانی</button>
+        <span class="footer__seprator">.</span>
+        <button class="footer__link">قوانین و شرایط</button>
+        <span class="footer__seprator">.</span>
+        <button class="footer__link">اینستاگرام</button>
+      </div>
+      <div class="footer__copyright">© ۱۴۰۵</div>
+    </footer>
+  </body>
+</html>
